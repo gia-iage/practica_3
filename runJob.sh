@@ -2,7 +2,7 @@
 #
 #SBATCH --job-name=job
 #SBATCH --output=%x_%j.out
-#SBATCH -t 00:30:00
+#SBATCH -t 00:45:00
 #SBATCH --exclusive
 
 if [ -z "$1" ]; then
